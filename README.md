@@ -10,3 +10,11 @@ I recommend using [vundle](https://github.com/gmarik/vundle) to install:
 ```
 Bundle 'greggroth/vim-cucumber-folding'
 ```
+
+# Contributing
+
+This plugin is tested using [vspec](https://github.com/kana/vim-vspec), so any pull requests should be accompanied by appropriate tests.  To run the tests, use the rake task:
+
+```
+rake test
+```
