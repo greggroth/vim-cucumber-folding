@@ -1,7 +1,16 @@
 vim-cucumber-folding
 ====================
 
-Folding pattern for Cucumber features.  It will add fold markers at `Background` and `Scenario` lines, making it easy to navigate larger cucumber feature files.
+Folding pattern for Cucumber features.  It will add fold markers at `Background` and `Scenario` lines, making it easy to navigate larger cucumber feature files:
+
+```
+0 Feature: Testing folding
+1   This should add fold markers at the Features
+2
+3 +--  3 lines: Background:--------------------------------------
+4 +--  4 lines: Scenario: First Feature--------------------------
+5 +--  3 lines: Scenario: Second Feature-------------------------
+```
 
 # Installation
 
