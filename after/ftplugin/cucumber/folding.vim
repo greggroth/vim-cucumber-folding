@@ -1,7 +1,7 @@
 function! CucumberFolds()
   let thisline = getline(v:lnum)
 
-  if match(thisline, '\(Scenario\|Background\)\:') >= 0
+  if match(thisline, '\(Scenario\( Outline\)\?\|Background\)\:') >= 0
     return ">1"
   else
     return "="

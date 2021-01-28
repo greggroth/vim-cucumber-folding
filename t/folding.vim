@@ -22,4 +22,9 @@ describe 'cucumber folds'
     Expect FoldBoundariesInRange(7, 9) toBeClosed
     Expect FoldBoundariesInRange(11, 13) toBeClosed
   end
+
+  it 'folds on `Scenario Outline`'
+    normal zM
+    Expect FoldBoundariesInRange(15, 23) toBeClosed
+  end
 end
